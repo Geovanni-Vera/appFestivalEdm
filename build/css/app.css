@@ -323,10 +323,11 @@ body {
 p {
   font-size: 2rem;
   color: #000;
+  line-height: 1.5;
 }
 
 .contenedor {
-  width: 95%;
+  width: 80%;
   max-width: 120rem;
   margin: 0 auto;
 }
@@ -349,6 +350,13 @@ h2 {
 
 h3 {
   font-size: 3rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
 }
 
 .header {
@@ -375,10 +383,14 @@ h3 {
   }
 }
 
+.navegacion-principal {
+  margin-top: 1rem;
+}
 @media screen and (min-width: 768px) {
   .navegacion-principal {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
+    margin-top: 0;
   }
 }
 .navegacion-principal a {
@@ -447,4 +459,34 @@ video {
   video {
     width: 100%;
   }
+}
+
+.sobre-festival {
+  padding: 5rem 0;
+}
+@media screen and (min-width: 768px) {
+  .sobre-festival {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+}
+
+.contenido-festival {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .contenido-festival {
+    padding: 0;
+  }
+}
+.contenido-festival h2 {
+  margin-bottom: 2rem;
+}
+.contenido-festival .fecha {
+  color: #f53756;
+  font-weight: 700;
 }
