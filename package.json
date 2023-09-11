@@ -1,0 +1,30 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Geovanni-Vera/appFestivalEdm.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Geovanni Vera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geovanni-Vera/appFestivalEdm/issues"
+  },
+  "homepage": "https://github.com/Geovanni-Vera/appFestivalEdm#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.66.1"
+  }
+}
